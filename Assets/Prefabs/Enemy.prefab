@@ -151,7 +151,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5944499237036902112}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3596fa1561190418212e0b7a9446b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e537754f07ca94caf97d089de0ee51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyWeakness: Banana
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6805891476410653959}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 589d9fd4597c3fa41834f3206dfd5ce9, type: 3}
+  m_Script: {fileID: 11500000, guid: 52c4cdbb64afe7441872e50ff2148b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PARENT: {fileID: 3246773028528600923}

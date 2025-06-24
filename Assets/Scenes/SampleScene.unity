@@ -161,7 +161,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 60943437}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71e6bca7638a41f439ed560f6a200072, type: 3}
+  m_Script: {fileID: 11500000, guid: 157f52544ff73d444a9c772572d5015e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHP: 100
@@ -453,7 +453,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 2177602273920956487, guid: 936e167c1036fb247ab85947e1c0698b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -482,7 +482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &278838075
 RectTransform:
   m_ObjectHideFlags: 0
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278838074}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 4281270103
   m_fontColor: {r: 0.340961, g: 1, b: 0.17924517, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1218,11 +1218,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70bfeb4784b97404ca1c8eadf27c346e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6290fe8d3cbc72241917a93baccb7173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PARENT: {fileID: 519420032}
-  OFFSET: {x: 0, y: 1.5}
+  OFFSET: {x: 0, y: 1}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,7 +4151,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1861253040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d37f6b15f8ef2e4aa0b8e15cc4d8f97, type: 3}
+  m_Script: {fileID: 11500000, guid: 81cd5841088939142a58abb2e489ce0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FRUIT_AMOUNT: 0000000000000000000000000000000000000000
@@ -4161,7 +4161,7 @@ MonoBehaviour:
   - {fileID: 2027571960}
   - {fileID: 1175066325}
   - {fileID: 977785435}
-  DISABLED_SPRITE: {fileID: -6601691336363857274, guid: e84d107cdbe58364daf6073de37ba41b, type: 3}
+  DISABLED_SPRITE: {fileID: 0}
   ENABLED_SPRITES:
   - {fileID: 21300000, guid: 9df607e3b560a2f4581b319e41501d05, type: 3}
   - {fileID: 21300000, guid: 5c78feefd56159a47b8c8fca65becc51, type: 3}

@@ -239,11 +239,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5953966145488640325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 589d9fd4597c3fa41834f3206dfd5ce9, type: 3}
+  m_Script: {fileID: 11500000, guid: 52c4cdbb64afe7441872e50ff2148b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PARENT: {fileID: 4717691151220089887}
-  SPEED: 0.5
+  SPEED: 0.1
   POINT1: {fileID: 7012786006082847193}
   POINT2: {fileID: 1273039478741011852}
 --- !u!1 &6817336675962930811
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7249500870578420201}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3596fa1561190418212e0b7a9446b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e537754f07ca94caf97d089de0ee51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyWeakness: Pineapple

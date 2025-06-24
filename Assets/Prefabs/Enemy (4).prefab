@@ -44,11 +44,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 223046323092787952}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 589d9fd4597c3fa41834f3206dfd5ce9, type: 3}
+  m_Script: {fileID: 11500000, guid: 52c4cdbb64afe7441872e50ff2148b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PARENT: {fileID: 1528253948701047017}
-  SPEED: 0.2
+  SPEED: 0.5
   POINT1: {fileID: 5680703015580713069}
   POINT2: {fileID: 8034916506993646283}
 --- !u!1 &1963205303846323651
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5374494673321139030}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3596fa1561190418212e0b7a9446b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e537754f07ca94caf97d089de0ee51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyWeakness: Apple
