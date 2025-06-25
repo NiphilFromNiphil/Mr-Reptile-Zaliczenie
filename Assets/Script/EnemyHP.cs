@@ -4,6 +4,7 @@ public class EnemyHP : MonoBehaviour
 {
     [SerializeField] private string EnemyWeakness;
     [SerializeField] private Transform PARENT;
+    [SerializeField] private AudioSource DIE_SFX;
     EnemySpawner spawner;
     private void Start()
     {
@@ -13,7 +14,7 @@ public class EnemyHP : MonoBehaviour
     {
         if (collision.tag == EnemyWeakness)
         {
-            //moze spawn sfx
+            Instantiate(DIE_SFX, PARENT.position, PARENT.rotation);
             spawner.RemoveEnemy(PARENT);
             Destroy(PARENT.gameObject);
         }

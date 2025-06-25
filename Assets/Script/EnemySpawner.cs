@@ -10,10 +10,13 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private Transform POINT1;
     [SerializeField] private Transform POINT2;
     [SerializeField] private Transform[] SPAWNEE;
+    [SerializeField] private Transform NEXT_LEVEL_SIGN_POS;
+    [SerializeField] private Transform NEXT_LEVEL_ENTRY;
     [SerializeField] private int onstart;
-    private List<Transform> enemies = new List<Transform>();
+    public List<Transform> enemies = new List<Transform>();
     TextMeshProUGUI zzabto;
 
+    bool won;
     private float timer = 1.0f;
 
     public void RemoveEnemy(Transform trans)
@@ -34,7 +37,15 @@ public class EnemySpawner : MonoBehaviour
     {
         if (enemies.Count <= 0)
         {
-            zzabto.enabled = true;
+            if (won == false)
+            {
+                zzabto.enabled = true;
+                if (NEXT_LEVEL_ENTRY != null)
+                {
+                    Instantiate(NEXT_LEVEL_ENTRY, NEXT_LEVEL_SIGN_POS.position, NEXT_LEVEL_SIGN_POS.rotation);
+                }
+                won = true;
+            }
         }
     }
     private void FixedUpdate()

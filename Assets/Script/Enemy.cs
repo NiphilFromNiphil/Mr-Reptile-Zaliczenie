@@ -1,9 +1,10 @@
+using System.Linq.Expressions;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform PARENT;
-    [SerializeField] private float SPEED;
+    [SerializeField] public float SPEED;
     [SerializeField] private Transform POINT1;
     [SerializeField] private Transform POINT2;
 

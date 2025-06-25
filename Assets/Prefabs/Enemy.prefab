@@ -156,6 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyWeakness: Banana
   PARENT: {fileID: 9034619569170269645}
+  DIE_SFX: {fileID: 4696561005213031131, guid: 4bf42557bf121bf47b1866e08bb9fe96, type: 3}
 --- !u!114 &5482176714480698372
 MonoBehaviour:
   m_ObjectHideFlags: 0

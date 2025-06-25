@@ -12,7 +12,7 @@ public class ItemSpawner : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < 10; i++)
         {
             Vector2 pos = new Vector2(Random.Range(POINT1.position.x, POINT2.position.x), POINT1.position.y);
             Instantiate(SPAWNEE[Random.Range(0, SPAWNEE.Length)], pos, POINT1.rotation);
@@ -27,7 +27,7 @@ public class ItemSpawner : MonoBehaviour
             {
                 Vector2 pos = new Vector2(Random.Range(POINT1.position.x, POINT2.position.x), POINT1.position.y);
                 Instantiate(SPAWNEE[Random.Range(0, SPAWNEE.Length)], pos, POINT1.rotation);
-                timer = 5.0f;
+                timer = 3.0f;
             }
         }
     }

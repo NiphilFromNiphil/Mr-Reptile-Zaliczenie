@@ -547,6 +547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyWeakness: Pineapple
   PARENT: {fileID: 6846910276558826904}
+  DIE_SFX: {fileID: 4696561005213031131, guid: 4bf42557bf121bf47b1866e08bb9fe96, type: 3}
 --- !u!114 &1450857411198513811
 MonoBehaviour:
   m_ObjectHideFlags: 0
