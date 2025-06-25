@@ -1669,7 +1669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543385959675338363, guid: 706029c77ef356d4e84b101bc5d4ed74, type: 3}
       propertyPath: m_text
-      value: Dlaczego to robisz?
+      value: "Czemu \u015Blepo pod\u0105\u017Casz za instrukcjami?"
       objectReference: {fileID: 0}
     - target: {fileID: 6525792501897307386, guid: 706029c77ef356d4e84b101bc5d4ed74, type: 3}
       propertyPath: m_LocalPosition.x
